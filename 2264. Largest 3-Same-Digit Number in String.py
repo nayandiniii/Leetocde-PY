@@ -7,7 +7,7 @@ class Solution(object):
         for i in range(len(num)-2):
             if num[i] == num[i+1] == num[i+2]:
                 strings = num[i] + num[i+1] + num[i+2]
-                list1.append(strings)
+                list1.append(strings) #if we convert to int here then i won't display "000"
 
         # Sort the list in descending order
         list1.sort(reverse=True)
