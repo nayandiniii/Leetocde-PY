@@ -1,0 +1,14 @@
+class Solution(object):
+    def frequencySort(self, s):
+        
+        letter_count= {}
+
+        for letter in s:
+            if letter not in letter_count:
+                letter_count[letter] = 0
+            letter_count[letter] += 1
+        mykeys= list(letter_count.keys())
+        mykeys.sort()
+        sorted_dict = {i: letter_count[i] for i in mykeys}
+        print(sorted_dict)
+        
