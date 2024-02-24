@@ -5,7 +5,7 @@
 # class MountainArray:
 #     def get(self, index: int) -> int:
 #     def length(self) -> int:
-
+#this is a very simple cpde to understand
 class Solution:
     def findInMountainArray(self, target: int, mountain_arr: 'MountainArray') -> int:
         length = mountain_arr.length()
